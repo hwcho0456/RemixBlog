@@ -1,4 +1,11 @@
 /** @type {import('@remix-run/dev').AppConfig} */
+
+const mdxOptions = {
+  defaultLayout: true,
+  remarkPlugins: [],
+  rehypePlugins: [],
+};
+
 module.exports = {
   serverBuildTarget: "vercel",
   // When running locally in development mode, we use the built in remix
