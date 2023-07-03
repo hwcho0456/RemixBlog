@@ -1,0 +1,15 @@
+{
+    "name": "rescript-remix-blog-template",
+    "reason": { "react-jsx": 3 },
+    "bs-dependencies": ["@rescript/react", "rescript-webapi"],
+    "ppx-flags": [],
+    "sources": [
+      { "dir": "bindings", "subdirs": true },
+      { "dir": "app", "subdirs": true }
+    ],
+    "package-specs": {
+      "module": "es6",
+      "in-source": true
+    },
+    "suffix": ".js"
+  }
